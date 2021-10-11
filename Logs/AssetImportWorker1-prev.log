@@ -1,0 +1,2374 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1052; Version 2009; 64bit' Language: 'zh' Physical Memory: 24413 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/unity/JustBall
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52660
+Successfully changed project path to: E:/unity/JustBall
+E:/unity/JustBall
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unity/JustBall/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6230
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001960 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 73.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.204 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4014 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 256.1 MB.
+System memory in use after: 256.3 MB.
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 4473.
+Total: 3.707400 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.202200 ms MarkObjects: 3.129900 ms  DeleteObjects: 0.032400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Result.unity
+  artifactKey: Guid(8a5fc6ea3bf3b8342836135cbd0bcf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Result.unity using Guid(8a5fc6ea3bf3b8342836135cbd0bcf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5e5627c3fa5458b9a47fc275210eaf') in 0.019266 seconds
+  Import took 0.024486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.202105 seconds.
+  path: Assets/Anim/Character/Animation Asset.asset
+  artifactKey: Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/Character/Animation Asset.asset using Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eac29ee9e9b7b47124f9148c801287a') in 0.041767 seconds
+  Import took 0.048811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005844 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 247.6 MB.
+System memory in use after: 247.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4489.
+Total: 4.494000 ms (FindLiveObjects: 0.369100 ms CreateObjectMapping: 0.195200 ms MarkObjects: 3.898600 ms  DeleteObjects: 0.030100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.126360 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/橙改.png
+  artifactKey: Guid(6414b954da614784ba7f57e839abb1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/橙改.png using Guid(6414b954da614784ba7f57e839abb1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b672779e75d0e8f3b4daa5d5a07519') in 0.132584 seconds
+  Import took 0.138446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007454 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/橙改.png
+  artifactKey: Guid(6414b954da614784ba7f57e839abb1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/橙改.png using Guid(6414b954da614784ba7f57e839abb1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b672779e75d0e8f3b4daa5d5a07519') in 0.016884 seconds
+  Import took 0.023674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722182 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/粉改.png
+  artifactKey: Guid(bdbf05f4ac93c1844b758ef7bfa579e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/粉改.png using Guid(bdbf05f4ac93c1844b758ef7bfa579e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096da2eb5e494305c7ce24fc42978cf4') in 0.057870 seconds
+  Import took 0.064211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/绿改.png
+  artifactKey: Guid(012011f6b507a044ca78094d059ad5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/绿改.png using Guid(012011f6b507a044ca78094d059ad5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc85a73a5dccba3523f9c4b142ed431f') in 0.066689 seconds
+  Import took 0.073234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001329 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/绿改.png
+  artifactKey: Guid(012011f6b507a044ca78094d059ad5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/绿改.png using Guid(012011f6b507a044ca78094d059ad5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc85a73a5dccba3523f9c4b142ed431f') in 0.051422 seconds
+  Import took 0.057123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.298072 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/青改.png
+  artifactKey: Guid(b0f0ff332e05f6342a8429b25c7fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/青改.png using Guid(b0f0ff332e05f6342a8429b25c7fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67928beec5b0823b7ac6963487165a46') in 0.058049 seconds
+  Import took 0.064567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/黄改.png
+  artifactKey: Guid(91283e8401d9a3042859a4cfeeecbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/黄改.png using Guid(91283e8401d9a3042859a4cfeeecbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6d7f75062b3b6d4225cd309eef63ff') in 0.030929 seconds
+  Import took 0.037315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/选择角色/角色快照/带厚边/青改.png
+  artifactKey: Guid(b0f0ff332e05f6342a8429b25c7fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/选择角色/角色快照/带厚边/青改.png using Guid(b0f0ff332e05f6342a8429b25c7fbd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67928beec5b0823b7ac6963487165a46') in 0.015440 seconds
+  Import took 0.021107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.593875 seconds.
+  path: Assets/Prefabs/chooseCharacter.prefab
+  artifactKey: Guid(9f8fe26a084d524458fe436330e1ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/chooseCharacter.prefab using Guid(9f8fe26a084d524458fe436330e1ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f40cf65a2b12d400dff2d04bfe64c9c') in 0.233049 seconds
+  Import took 0.246275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002213 seconds.
+  path: Assets/Prefabs/chooseCharacter.prefab
+  artifactKey: Guid(9f8fe26a084d524458fe436330e1ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/chooseCharacter.prefab using Guid(9f8fe26a084d524458fe436330e1ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f40cf65a2b12d400dff2d04bfe64c9c') in 0.029768 seconds
+  Import took 0.036956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.320417 seconds.
+  path: Assets/Anim/Character/Animation Asset.asset
+  artifactKey: Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/Character/Animation Asset.asset using Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a4eda7695044b95ab77d7abe8032f3') in 0.009054 seconds
+  Import took 0.015058 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.8 MB.
+System memory in use after: 253.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4553.
+Total: 4.513100 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.239700 ms MarkObjects: 3.835500 ms  DeleteObjects: 0.030600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.367 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 252.9 MB.
+System memory in use after: 253.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4569.
+Total: 4.127900 ms (FindLiveObjects: 0.373700 ms CreateObjectMapping: 0.202700 ms MarkObjects: 3.525100 ms  DeleteObjects: 0.025700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3047.772998 seconds.
+  path: Assets/Scenes/Loading.unity
+  artifactKey: Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Loading.unity using Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8795379a855a094fb671d9a5b4b9562a') in 0.017562 seconds
+  Import took 0.023567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005973 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.0 MB.
+System memory in use after: 253.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4585.
+Total: 7.598900 ms (FindLiveObjects: 0.527800 ms CreateObjectMapping: 0.330400 ms MarkObjects: 6.709100 ms  DeleteObjects: 0.030200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.473602 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f561e05da7bcf52c820935868dd46b6c') in 0.019905 seconds
+  Import took 0.026089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.781847 seconds.
+  path: Assets/Resources/地图
+  artifactKey: Guid(a99b26cddbf80624cad6840494d77260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/地图 using Guid(a99b26cddbf80624cad6840494d77260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b71922fd78d54e83112ead194a916d') in 0.005296 seconds
+  Import took 0.111150 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.0 MB.
+System memory in use after: 253.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4601.
+Total: 4.562500 ms (FindLiveObjects: 0.433700 ms CreateObjectMapping: 0.225400 ms MarkObjects: 3.872900 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.305 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.0 MB.
+System memory in use after: 253.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4617.
+Total: 4.541600 ms (FindLiveObjects: 0.384700 ms CreateObjectMapping: 0.209500 ms MarkObjects: 3.921100 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006091 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.0 MB.
+System memory in use after: 253.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4633.
+Total: 4.721900 ms (FindLiveObjects: 0.499200 ms CreateObjectMapping: 0.236900 ms MarkObjects: 3.945900 ms  DeleteObjects: 0.037500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.1 MB.
+System memory in use after: 253.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4649.
+Total: 4.635800 ms (FindLiveObjects: 0.477600 ms CreateObjectMapping: 0.231300 ms MarkObjects: 3.897700 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1081.190261 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0ff9aab1e07ea3e094e4bd7c5f81ea') in 0.014582 seconds
+  Import took 0.020900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001633 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0ff9aab1e07ea3e094e4bd7c5f81ea') in 0.001852 seconds
+  Import took 0.008427 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.1 MB.
+System memory in use after: 253.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4665.
+Total: 4.557000 ms (FindLiveObjects: 0.788800 ms CreateObjectMapping: 0.239300 ms MarkObjects: 3.499800 ms  DeleteObjects: 0.026500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.1 MB.
+System memory in use after: 253.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4681.
+Total: 4.088700 ms (FindLiveObjects: 0.472700 ms CreateObjectMapping: 0.198600 ms MarkObjects: 3.391400 ms  DeleteObjects: 0.024500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.1 MB.
+System memory in use after: 253.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4697.
+Total: 4.084100 ms (FindLiveObjects: 0.398700 ms CreateObjectMapping: 0.222900 ms MarkObjects: 3.433300 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.639946 seconds.
+  path: Assets/Resources/加载/球1.png
+  artifactKey: Guid(f57e3d72460b062469659f4a82228957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球1.png using Guid(f57e3d72460b062469659f4a82228957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665d48eb2f88d623e75498c790ddc9f7') in 0.069454 seconds
+  Import took 0.076119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Resources/加载/球3.png
+  artifactKey: Guid(a476a0e40689b5942b24b34ae9e83fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球3.png using Guid(a476a0e40689b5942b24b34ae9e83fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0af2a8a8e61d10c0d8e01bc3c1174d') in 0.018674 seconds
+  Import took 0.024626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/加载/球5.png
+  artifactKey: Guid(b5fb6c74c834f964bb9d592832bcfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球5.png using Guid(b5fb6c74c834f964bb9d592832bcfefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1117870f1d8885e951fc17dd9f0964bc') in 0.013848 seconds
+  Import took 0.019752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Resources/加载/球4.png
+  artifactKey: Guid(894e5f6743042774c8072c6c1c290d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球4.png using Guid(894e5f6743042774c8072c6c1c290d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fce85cb4816f4552d5cbd90b6df867') in 0.013800 seconds
+  Import took 0.023296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Resources/加载/球带白边.png
+  artifactKey: Guid(8aa003f8ce4887044b17fd9e1bac92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球带白边.png using Guid(8aa003f8ce4887044b17fd9e1bac92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68bec48767435d95dc5078540895ee8') in 0.017230 seconds
+  Import took 0.023573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Resources/加载/载.png
+  artifactKey: Guid(bba8aff3be4e73d48a5ffbc4240a1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/载.png using Guid(bba8aff3be4e73d48a5ffbc4240a1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64763445c430226e2b99d508600bd4d') in 0.014718 seconds
+  Import took 0.020492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Resources/加载/球6.png
+  artifactKey: Guid(cc0787e6decc44748bbf9311decafe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球6.png using Guid(cc0787e6decc44748bbf9311decafe44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfded20d6af0636a73ac56b2e4498e9') in 0.013949 seconds
+  Import took 0.020438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Resources/加载/球2.png
+  artifactKey: Guid(48e4b61f0ad5d4941b110bc5634b6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/球2.png using Guid(48e4b61f0ad5d4941b110bc5634b6e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe2c1f0873a142633f511501402b8f2') in 0.013947 seconds
+  Import took 0.020368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.616170 seconds.
+  path: Assets/Anim/Character/Animation Asset.asset
+  artifactKey: Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/Character/Animation Asset.asset using Guid(0962ad18be6138c49a0889c33b9e226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75aaac4ea2967c533b6d390651b31e9') in 0.005692 seconds
+  Import took 0.014973 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005882 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.2 MB.
+System memory in use after: 253.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4717.
+Total: 4.222400 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.206300 ms MarkObjects: 3.588200 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.2 MB.
+System memory in use after: 253.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4733.
+Total: 8.525100 ms (FindLiveObjects: 1.040100 ms CreateObjectMapping: 0.495700 ms MarkObjects: 6.945200 ms  DeleteObjects: 0.041300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.2 MB.
+System memory in use after: 253.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4749.
+Total: 4.503300 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.197400 ms MarkObjects: 3.905200 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.2 MB.
+System memory in use after: 253.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4765.
+Total: 3.937600 ms (FindLiveObjects: 0.380500 ms CreateObjectMapping: 0.172900 ms MarkObjects: 3.356600 ms  DeleteObjects: 0.026200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.341960 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4043b01ff1f5ef126dcfce30064fbd8e') in 0.017939 seconds
+  Import took 0.023509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17412.746178 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5975e1ca7f59c499dbaaa4310bfa636a') in 0.007429 seconds
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 952.332039 seconds.
+  path: Assets/Resources/加载/中.png
+  artifactKey: Guid(d3958066acc4183498c9af4295eadb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/中.png using Guid(d3958066acc4183498c9af4295eadb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef7e029ccbb36cf08bb885a49d0726c') in 0.069643 seconds
+  Import took 0.076656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/加载/加.png
+  artifactKey: Guid(809ee1bfd4b370a4990af063cf5816dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/加载/加.png using Guid(809ee1bfd4b370a4990af063cf5816dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9071a6331c126a0f100e10bd9feed4') in 0.016973 seconds
+  Import took 0.022892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.610927 seconds.
+  path: Assets/Anim/guide.anim
+  artifactKey: Guid(04d615cd440c05f4cacb02f32f09dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/guide.anim using Guid(04d615cd440c05f4cacb02f32f09dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c66bf80c8a9852d8f56e02aaf69dfb') in 0.010047 seconds
+  Import took 0.016773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001472 seconds.
+  path: Assets/Anim/guide.anim
+  artifactKey: Guid(04d615cd440c05f4cacb02f32f09dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anim/guide.anim using Guid(04d615cd440c05f4cacb02f32f09dcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c66bf80c8a9852d8f56e02aaf69dfb') in 0.002811 seconds
+  Import took 0.009760 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.3 MB.
+System memory in use after: 253.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4782.
+Total: 4.283600 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.241100 ms MarkObjects: 3.584600 ms  DeleteObjects: 0.028600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.450 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.3 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4798.
+Total: 4.399100 ms (FindLiveObjects: 0.422100 ms CreateObjectMapping: 0.223700 ms MarkObjects: 3.723400 ms  DeleteObjects: 0.028600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.304 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.3 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4814.
+Total: 4.513400 ms (FindLiveObjects: 0.554800 ms CreateObjectMapping: 0.279900 ms MarkObjects: 3.651200 ms  DeleteObjects: 0.026600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.3 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4830.
+Total: 4.416600 ms (FindLiveObjects: 0.556000 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.557600 ms  DeleteObjects: 0.027600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005938 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.4 MB.
+System memory in use after: 253.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4846.
+Total: 4.361600 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.229700 ms MarkObjects: 3.652700 ms  DeleteObjects: 0.026400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.4 MB.
+System memory in use after: 253.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4862.
+Total: 4.792100 ms (FindLiveObjects: 0.416000 ms CreateObjectMapping: 0.226400 ms MarkObjects: 4.120800 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16613.430548 seconds.
+  path: Assets/Resources/Audio/（开始）安藤浩和 - オクターンオーシャン.mp3
+  artifactKey: Guid(07a84dfb64fe67a45819c34f66024461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/（开始）安藤浩和 - オクターンオーシャン.mp3 using Guid(07a84dfb64fe67a45819c34f66024461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93428a5032f18b8cdd4db04e829f4dcb') in 0.089668 seconds
+  Import took 0.096198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/Audio/（战斗2）石川淳 - ステージ：コミカル (サンドキャニオン).mp3
+  artifactKey: Guid(2b6b52b2655d2be4faec35faff102296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/（战斗2）石川淳 - ステージ：コミカル (サンドキャニオン).mp3 using Guid(2b6b52b2655d2be4faec35faff102296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bcb449133eef7b445e4e65b7580221') in 0.020765 seconds
+  Import took 0.029265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Audio/（战斗3）石川淳 - ポップスター.mp3
+  artifactKey: Guid(b4a5e04d6e22ab4408bfe321e4adb2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/（战斗3）石川淳 - ポップスター.mp3 using Guid(b4a5e04d6e22ab4408bfe321e4adb2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474e31a8236c248afc3eb02e3cf1fffd') in 0.022281 seconds
+  Import took 0.030181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Resources/Audio/（战斗1）石川淳 - ゴージャス☆ゴーラウンド♪.mp3
+  artifactKey: Guid(199b2b186ff44c1408d10d4ba3b2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/（战斗1）石川淳 - ゴージャス☆ゴーラウンド♪.mp3 using Guid(199b2b186ff44c1408d10d4ba3b2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d7081d4e1dbf2071d3336db8e3686e') in 0.024872 seconds
+  Import took 0.031822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Resources/Audio/（战斗4）改増田俊郎 - おふざけモード.mp3
+  artifactKey: Guid(6b2c5ce7cda79f54da5192606c235fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/（战斗4）改増田俊郎 - おふざけモード.mp3 using Guid(6b2c5ce7cda79f54da5192606c235fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681bb6bb2225a7b8e7669dd21b73171d') in 0.022401 seconds
+  Import took 0.028850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.334045 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(2460d2b4f519b1e46b312ac13fde6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(2460d2b4f519b1e46b312ac13fde6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf17b9cc34b9552ac0f5df507752881') in 0.014204 seconds
+  Import took 0.020971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.126469 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(2460d2b4f519b1e46b312ac13fde6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(2460d2b4f519b1e46b312ac13fde6ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2023a1d25493f5c6661c943430bbeb7') in 0.007375 seconds
+  Import took 0.013887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.751667 seconds.
+  path: Assets/Resources/Audio/kick 1.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick 1.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cafaf6fe86cf500972daa5c11192c2') in 0.015141 seconds
+  Import took 0.021092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008110 seconds.
+  path: Assets/Resources/Audio/kick 1.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick 1.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cafaf6fe86cf500972daa5c11192c2') in 0.006760 seconds
+  Import took 0.013448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.917723 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be692178889abd4a7caeb5df77a4a554') in 0.006902 seconds
+  Import took 0.012600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001606 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be692178889abd4a7caeb5df77a4a554') in 0.007435 seconds
+  Import took 0.014186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.598678 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc09809dadf9509a3de0b38ddcf01ba') in 0.006813 seconds
+  Import took 0.012615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001085 seconds.
+  path: Assets/Resources/Audio/kick.wav
+  artifactKey: Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/kick.wav using Guid(6e56cd766882d5e4aa54f402bbf7670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc09809dadf9509a3de0b38ddcf01ba') in 0.007152 seconds
+  Import took 0.014204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.942375 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565ee2f741a6fcdcb748c76b9dce37a3') in 0.006448 seconds
+  Import took 0.012401 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006366 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.5 MB.
+System memory in use after: 253.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4881.
+Total: 4.249600 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.245300 ms MarkObjects: 3.568900 ms  DeleteObjects: 0.027000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.570 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.5 MB.
+System memory in use after: 253.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4897.
+Total: 5.601200 ms (FindLiveObjects: 0.684600 ms CreateObjectMapping: 0.339400 ms MarkObjects: 4.548000 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 721.806184 seconds.
+  path: Assets/Scripts/Play/GameController.cs
+  artifactKey: Guid(62183214da3211840b598906b08f256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Play/GameController.cs using Guid(62183214da3211840b598906b08f256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9417a28e4be3c9d4273f52286b08d3') in 0.017629 seconds
+  Import took 0.025325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Scripts/Play/GameController.cs
+  artifactKey: Guid(62183214da3211840b598906b08f256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Play/GameController.cs using Guid(62183214da3211840b598906b08f256e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9417a28e4be3c9d4273f52286b08d3') in 0.001959 seconds
+  Import took 0.008086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.117707 seconds.
+  path: Assets/Scripts/Loading/LoadingManager.cs
+  artifactKey: Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Loading/LoadingManager.cs using Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b355cfd43416f216d3b06f822653d4d') in 0.005742 seconds
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Scripts/Loading/LoadingManager.cs
+  artifactKey: Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Loading/LoadingManager.cs using Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b355cfd43416f216d3b06f822653d4d') in 0.002284 seconds
+  Import took 0.008849 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.5 MB.
+System memory in use after: 253.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4913.
+Total: 4.277100 ms (FindLiveObjects: 0.392900 ms CreateObjectMapping: 0.178200 ms MarkObjects: 3.681300 ms  DeleteObjects: 0.023800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.197238 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cab025b68e14bcc954439220a98b77a') in 0.019397 seconds
+  Import took 0.025003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scripts/Loading/LoadingManager.cs
+  artifactKey: Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Loading/LoadingManager.cs using Guid(e7769b7e0de5004409b19212dca34e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0044b7dbacaa727beddf364740e7d54e') in 0.001816 seconds
+  Import took 0.007167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.984420 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca8193628853d31d24250d4eed6c950') in 0.005878 seconds
+  Import took 0.012557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001404 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca8193628853d31d24250d4eed6c950') in 0.002025 seconds
+  Import took 0.007950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.034417 seconds.
+  path: Assets/Scenes/Loading.unity
+  artifactKey: Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Loading.unity using Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9253c30df503621d55447fc99357b3cf') in 0.006359 seconds
+  Import took 0.012654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/Scenes/Loading.unity
+  artifactKey: Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Loading.unity using Guid(f435ae3fd2aef0e4187ba5414405d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9253c30df503621d55447fc99357b3cf') in 0.002274 seconds
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.6 MB.
+System memory in use after: 253.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4929.
+Total: 4.182600 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.162100 ms MarkObjects: 3.595200 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.9 MB.
+System memory in use after: 178.1 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4929.
+Total: 4.992800 ms (FindLiveObjects: 0.773900 ms CreateObjectMapping: 0.370300 ms MarkObjects: 3.820700 ms  DeleteObjects: 0.026700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.6 MB.
+System memory in use after: 253.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4945.
+Total: 4.920100 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.217200 ms MarkObjects: 4.240700 ms  DeleteObjects: 0.034200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4879.048663 seconds.
+  path: Assets/Resources/Audio/result.wav
+  artifactKey: Guid(0b57f05bb43b0564d876d9cc93ab0910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Audio/result.wav using Guid(0b57f05bb43b0564d876d9cc93ab0910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc578ce5cafa7165195214e6c74c6c') in 0.057885 seconds
+  Import took 0.255265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.694 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.6 MB.
+System memory in use after: 253.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4962.
+Total: 6.027900 ms (FindLiveObjects: 0.458500 ms CreateObjectMapping: 0.234100 ms MarkObjects: 5.301000 ms  DeleteObjects: 0.032600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006800 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 253.7 MB.
+System memory in use after: 253.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4978.
+Total: 5.654500 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.283300 ms MarkObjects: 4.710300 ms  DeleteObjects: 0.028500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.809295 seconds.
+  path: Assets/Prefabs/Level/BackGround_sand.prefab
+  artifactKey: Guid(e12d8c2d11bfbef4780179804a45ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/BackGround_sand.prefab using Guid(e12d8c2d11bfbef4780179804a45ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb733d32c6556be36ec900765fd7e099') in 1.418296 seconds
+  Import took 1.482747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefabs/Level/Background_garden.prefab
+  artifactKey: Guid(fc4a77052af20774fba63f5f7e218c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/Background_garden.prefab using Guid(fc4a77052af20774fba63f5f7e218c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Background_garden) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Background_garden) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '297d21962eeb77862b9eb613da0300b6') in 0.072083 seconds
+  Import took 0.218879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Prefabs/BallFather.prefab
+  artifactKey: Guid(82e848f2dad1a4740b3c1d5cb8de592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BallFather.prefab using Guid(82e848f2dad1a4740b3c1d5cb8de592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af2bab311bc1651b2dbbe138548944') in 0.160842 seconds
+  Import took 0.182054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Prefabs/Level/Background_Pond.prefab
+  artifactKey: Guid(2c94bbbae99a4d14aa29d10a79378f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/Background_Pond.prefab using Guid(2c94bbbae99a4d14aa29d10a79378f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44901a1a09a0e75ee592312b4e833ee0') in 0.132367 seconds
+  Import took 0.138609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabs/BallFather.prefab
+  artifactKey: Guid(82e848f2dad1a4740b3c1d5cb8de592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BallFather.prefab using Guid(82e848f2dad1a4740b3c1d5cb8de592f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af2bab311bc1651b2dbbe138548944') in 0.008549 seconds
+  Import took 0.014676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefabs/Guide.prefab
+  artifactKey: Guid(9e6be10795ed2f745a0d48223c9f8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Guide.prefab using Guid(9e6be10795ed2f745a0d48223c9f8814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6364400f9690d7673e265205300ab148') in 0.705945 seconds
+  Import took 0.830760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Prefabs/Level/Levels.asset
+  artifactKey: Guid(b2609ee7d9033c94c8ff39aa656ef0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/Levels.asset using Guid(b2609ee7d9033c94c8ff39aa656ef0fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6581923e1c02ac54b52ecba95fc6fc23') in 0.090754 seconds
+  Import took 0.140135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(18c555a94449950499f7c9ed87f430e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(18c555a94449950499f7c9ed87f430e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad8d07c4cea31be73c6bcc8fc56e37') in 0.191466 seconds
+  Import took 0.512432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Prefabs/Level/BackGround_desk.prefab
+  artifactKey: Guid(ff666beb8258c7445be6a1f6c3c26231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/BackGround_desk.prefab using Guid(ff666beb8258c7445be6a1f6c3c26231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08fe38a421ff66bda550608ac97ca74') in 0.080843 seconds
+  Import took 0.204357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(3279a0288e89b3c41ba932326dafdab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(3279a0288e89b3c41ba932326dafdab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67392e3f73c93bf170256bf84ed4b7f2') in 0.172317 seconds
+  Import took 0.276336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.928700 seconds.
+  path: Assets/Scenes/Input.unity
+  artifactKey: Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Input.unity using Guid(d40d818ccaf3b6f459abc0b3bee840b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb22915cd7ce466f6c305ab7879f117') in 0.006940 seconds
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005635 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.319 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.9 MB.
+System memory in use after: 255.2 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 5091.
+Total: 4.543500 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.222200 ms MarkObjects: 3.863900 ms  DeleteObjects: 0.029600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.863480 seconds.
+  path: Assets/Scenes/Result.unity
+  artifactKey: Guid(8a5fc6ea3bf3b8342836135cbd0bcf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Result.unity using Guid(8a5fc6ea3bf3b8342836135cbd0bcf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e313617b7cc64b6558e025e9ccbe83a') in 0.020372 seconds
+  Import took 0.245304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.418479 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(ea2a2ee15c0d0484ba513df274d4289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5347fd43d34e3b7de6e73dc67dd8b70') in 0.007599 seconds
+  Import took 1.316935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.NativeProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:75 
+  at InControl.NativeProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:85 
+  at InControl.NativeProfileListGenerator.DiscoverProfiles () [0x000fd] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:66 
+  at InControl.NativeProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\NativeProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.ArgumentException: Empty path name is not legal.
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize, System.Boolean checkHost) [0x00033] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Boolean detectEncodingFromByteOrderMarks) [0x0000d] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string)
+  at InControl.UnityProfileListGenerator.GetFileContents (System.String fileName) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:80 
+  at InControl.UnityProfileListGenerator.PutFileContents (System.String filePath, System.String content) [0x00001] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:89 
+  at InControl.UnityProfileListGenerator.DiscoverProfiles () [0x00124] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:71 
+  at InControl.UnityProfileListGenerator..cctor () [0x0000e] in E:\unity\JustBall\Assets\InControl\Editor\UnityProfileListGenerator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.387 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 255.0 MB.
+System memory in use after: 255.2 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 5107.
+Total: 5.037400 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.241900 ms MarkObjects: 4.233600 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 5107.
+Total: 5.341200 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.220000 ms MarkObjects: 4.648500 ms  DeleteObjects: 0.025400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
